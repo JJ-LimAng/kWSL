@@ -16,7 +16,7 @@
 From an elevated CMD.EXE prompt change to your desired install directory and type/paste the following command:
 
 ```
-PowerShell -executionpolicy bypass -command "Invoke WebRequest wget https://github.com/DesktopECHO/kWSL/raw/master/kWSL.cmd -UseBasicParsing -OutFile kWSL.cmd ; .\kWSL.cmd"
+PowerShell -executionpolicy bypass -command "Invoke-WebRequest wget https://github.com/DesktopECHO/kWSL/raw/master/kWSL.cmd -UseBasicParsing -OutFile kWSL.cmd ; .\kWSL.cmd"
 
 ```
 
